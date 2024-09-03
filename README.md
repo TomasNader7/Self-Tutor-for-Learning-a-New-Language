@@ -8,8 +8,8 @@ This Python program enables users to record speech, transcribe it to text, trans
 Before running this program, ensure you have the following Python libraries installed:
 
 <ul> <li><code>gTTS</code>: Google's Text-to-Speech API.</li> <li><code>googletrans</code>: Google Translate API.</li> <li><code>speech_recognition</code>: Speech-to-Text conversion library.</li> <li><code>pyttsx3</code>: Python Text-to-Speech library.</li> </ul>
-You can install these dependencies using pip:
-pip install gtts googletrans==4.0.0-rc1 SpeechRecognition pyttsx3
+<ol> <li><b>You can install these dependencies using pip:</b> <pre><code>
+pip install gtts googletrans==4.0.0-rc1 SpeechRecognition pyttsx3</code></pre>
 
 # USAGE
 <ol> <li><b>Run the Program:</b> <pre><code>python &lt;script_name&gt;.py</code></pre> Replace <code>&lt;script_name&gt;</code> with the name of your Python script. </li> <li><b>Select Language:</b> <ul> <li>The program will display a list of supported languages with their respective codes.</li> <li>Enter the language code of the language you want to translate the text into.</li> </ul> </li> <li><b>Record Speech:</b> <ul> <li>The program will prompt you to speak.</li> <li>Speak clearly into the microphone.</li> </ul> </li> <li><b>Transcription:</b> <ul> <li>Your speech will be transcribed and saved to a file named <code>transcribed_text.txt</code>.</li> </ul> </li> <li><b>Translation and Text-to-Speech:</b> <ul> <li>The transcribed text will be translated to your selected language.</li> <li>The translated text will be converted to speech and saved as <code>output.wav</code>.</li> </ul> </li> </ol>
